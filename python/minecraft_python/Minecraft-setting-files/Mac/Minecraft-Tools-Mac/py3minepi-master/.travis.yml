@@ -1,0 +1,27 @@
+language: python
+
+python: 3.4
+
+install:
+  travis_retry pip install tox
+
+env:
+  - TOXENV=py27
+  - TOXENV=py33
+  - TOXENV=py34
+  - TOXENV=coverage
+
+script:
+  - tox -e $TOXENV
+
+sudo: false
+
+matrix:
+  fast_finish: true
+
+notifications:
+  irc:
+    channels:
+      - "chat.freenode.net#py3minepi"
+    use_notice: true
+    skip_join: true

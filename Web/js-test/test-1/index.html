@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Happy Coding</title>
+
+        <script>
+            // document.write('Hello world!');
+            // alert("Hello~~~~")
+            // console.log('test');
+
+
+            // function showMessage() {
+            //     alert('Hello!');
+            //     let outputElement = document.getElementById('output');
+            //     outputElement.innerText = 'Button clicked';
+            // }
+
+
+            // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+            function showMessage() {
+                let nameInputElement = document.getElementById('nameInput');
+                let name = nameInputElement.value;
+                
+                alert(name);
+                // let outputElement = document.getElementById('output');
+                // outputElement.innerText = 'Hello ' + name + '!';
+            }
+            
+        </script>
+	</head>
+	<body>
+		<!-- <p>Happy coding!</p>
+
+        <button onclick="showMessage()">
+            Click me!
+        </button>
+
+        <p id="output"></p> -->
+
+
+        <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+        <p>Type your name and then click the button:</p>
+        <input id="nameInput">
+        <button onclick="showMessage()">
+            Click me!
+        </button>
+        
+        <p id="output"></p>
+	</body>
+</html>

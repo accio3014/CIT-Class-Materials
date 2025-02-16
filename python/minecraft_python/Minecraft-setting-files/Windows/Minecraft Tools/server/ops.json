@@ -1,0 +1,32 @@
+[
+  {
+    "uuid": "0216e523-3e73-3203-9316-65219845e6a1",
+    "name": "oimq",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "6b8125b2-7815-4e4d-af85-d7942904b3d6",
+    "name": "oimq",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "160630f5-f088-37c0-85f4-60816d9734e6",
+    "name": "sean0728kor",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "b8349ee3-91a7-3e5e-831c-5d9bae753790",
+    "name": "mybunny",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d5aa5505-ff4c-3322-be63-1beaeb8f4bba",
+    "name": "cit_purusmundus",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

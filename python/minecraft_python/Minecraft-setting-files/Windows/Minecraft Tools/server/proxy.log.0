@@ -1,0 +1,311 @@
+21:21:35 [정보] Using standard Java JCE cipher.
+21:21:35 [정보] Using standard Java compressor.
+21:21:35 [정보] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.12-SNAPSHOT:aef3861:1294
+21:21:35 [정보] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+21:21:35 [정보] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+21:21:35 [정보] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+21:21:35 [정보] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+21:21:35 [정보] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+21:21:35 [정보] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+21:21:35 [정보] Attempting to update plugin from null to ModuleVersion(build=1294, git=aef3861)
+21:21:35 [정보] Attempting to Jenkins download module cmd_alert v1294
+21:21:36 [정보] Download complete
+21:21:36 [정보] Attempting to update plugin from null to ModuleVersion(build=1294, git=aef3861)
+21:21:36 [정보] Attempting to Jenkins download module cmd_find v1294
+21:21:36 [정보] Download complete
+21:21:36 [정보] Attempting to update plugin from null to ModuleVersion(build=1294, git=aef3861)
+21:21:36 [정보] Attempting to Jenkins download module cmd_list v1294
+21:21:37 [정보] Download complete
+21:21:37 [정보] Attempting to update plugin from null to ModuleVersion(build=1294, git=aef3861)
+21:21:37 [정보] Attempting to Jenkins download module cmd_send v1294
+21:21:37 [정보] Download complete
+21:21:37 [정보] Attempting to update plugin from null to ModuleVersion(build=1294, git=aef3861)
+21:21:37 [정보] Attempting to Jenkins download module cmd_server v1294
+21:21:38 [정보] Download complete
+21:21:38 [정보] Attempting to update plugin from null to ModuleVersion(build=1294, git=aef3861)
+21:21:38 [정보] Attempting to Jenkins download module reconnect_yaml v1294
+21:21:38 [정보] Download complete
+21:21:38 [정보] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:21:38 [정보] Loaded plugin cmd_find version git:cmd_find:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:21:38 [경고] Error enabling plugin SetSpawn
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:34)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:27)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:304)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:212)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:259)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:56)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:53)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:27)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 18 more
+21:21:38 [정보] Loaded plugin cmd_server version git:cmd_server:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:21:38 [정보] Loaded plugin cmd_alert version git:cmd_alert:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:21:38 [정보] Loaded plugin cmd_send version git:cmd_send:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:21:38 [정보] Loaded plugin cmd_list version git:cmd_list:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:21:38 [경고] Error enabling plugin RaspberryJuice
+java.lang.NoClassDefFoundError: org/bukkit/event/Listener
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:34)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:27)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:304)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:212)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:259)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:56)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.event.Listener
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:53)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:27)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 18 more
+21:21:38 [경고] Forced host server pvp is not defined
+21:21:38 [정보] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:21:38 [정보] Enabled plugin cmd_find version git:cmd_find:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:21:38 [정보] Enabled plugin cmd_server version git:cmd_server:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:21:38 [정보] Enabled plugin cmd_alert version git:cmd_alert:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:21:38 [정보] Enabled plugin cmd_send version git:cmd_send:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:21:38 [정보] Enabled plugin cmd_list version git:cmd_list:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:21:39 [정보] Listening on /0.0.0.0:25577
+21:27:21 [정보] Using standard Java JCE cipher.
+21:27:21 [정보] Using standard Java compressor.
+21:27:21 [정보] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.12-SNAPSHOT:aef3861:1294
+21:27:21 [정보] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+21:27:21 [정보] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+21:27:21 [정보] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+21:27:21 [정보] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+21:27:21 [정보] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+21:27:21 [정보] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+21:27:21 [정보] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:21 [정보] Loaded plugin cmd_find version git:cmd_find:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:21 [경고] Error enabling plugin SetSpawn
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:34)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:27)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:304)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:212)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:259)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:56)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:53)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:27)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 18 more
+21:27:21 [정보] Loaded plugin cmd_server version git:cmd_server:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:21 [정보] Loaded plugin cmd_alert version git:cmd_alert:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:21 [정보] Loaded plugin cmd_send version git:cmd_send:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:21 [정보] Loaded plugin cmd_list version git:cmd_list:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:21 [경고] Error enabling plugin RaspberryJuice
+java.lang.NoClassDefFoundError: org/bukkit/event/Listener
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:34)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:27)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:304)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:212)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:259)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:56)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.event.Listener
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:53)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:27)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 18 more
+21:27:21 [경고] Forced host server pvp is not defined
+21:27:21 [정보] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:21 [정보] Enabled plugin cmd_find version git:cmd_find:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:21 [정보] Enabled plugin cmd_server version git:cmd_server:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:21 [정보] Enabled plugin cmd_alert version git:cmd_alert:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:21 [정보] Enabled plugin cmd_send version git:cmd_send:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:21 [정보] Enabled plugin cmd_list version git:cmd_list:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:21 [정보] Listening on /0.0.0.0:25577
+21:27:24 [정보] §cCommand not found
+21:27:40 [정보] Using standard Java JCE cipher.
+21:27:40 [정보] Using standard Java compressor.
+21:27:40 [정보] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.12-SNAPSHOT:aef3861:1294
+21:27:40 [정보] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+21:27:40 [정보] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+21:27:40 [정보] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+21:27:40 [정보] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+21:27:40 [정보] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+21:27:40 [정보] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+21:27:40 [정보] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:40 [정보] Loaded plugin cmd_find version git:cmd_find:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:40 [경고] Error enabling plugin SetSpawn
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:34)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:27)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:304)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:212)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:259)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:56)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:53)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:27)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 18 more
+21:27:40 [정보] Loaded plugin cmd_server version git:cmd_server:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:40 [정보] Loaded plugin cmd_alert version git:cmd_alert:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:40 [정보] Loaded plugin cmd_send version git:cmd_send:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:40 [정보] Loaded plugin cmd_list version git:cmd_list:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:40 [경고] Error enabling plugin RaspberryJuice
+java.lang.NoClassDefFoundError: org/bukkit/event/Listener
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:34)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:27)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:304)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:212)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:259)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:56)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.event.Listener
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:53)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:27)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 18 more
+21:27:40 [경고] Forced host server pvp is not defined
+21:27:40 [정보] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:40 [정보] Enabled plugin cmd_find version git:cmd_find:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:40 [정보] Enabled plugin cmd_server version git:cmd_server:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:40 [정보] Enabled plugin cmd_alert version git:cmd_alert:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:40 [정보] Enabled plugin cmd_send version git:cmd_send:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:40 [정보] Enabled plugin cmd_list version git:cmd_list:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:27:41 [정보] Listening on /0.0.0.0:25577
+21:29:50 [정보] Using standard Java JCE cipher.
+21:29:50 [정보] Using standard Java compressor.
+21:29:50 [정보] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.12-SNAPSHOT:aef3861:1294
+21:29:50 [정보] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+21:29:50 [정보] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+21:29:50 [정보] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+21:29:50 [정보] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+21:29:50 [정보] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+21:29:50 [정보] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+21:29:51 [정보] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:29:51 [정보] Loaded plugin cmd_find version git:cmd_find:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:29:51 [경고] Error enabling plugin SetSpawn
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:34)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:27)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:304)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:212)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:259)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:56)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:53)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:27)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 18 more
+21:29:51 [정보] Loaded plugin cmd_server version git:cmd_server:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:29:51 [정보] Loaded plugin cmd_alert version git:cmd_alert:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:29:51 [정보] Loaded plugin cmd_send version git:cmd_send:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:29:51 [정보] Loaded plugin cmd_list version git:cmd_list:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:29:51 [경고] Error enabling plugin RaspberryJuice
+java.lang.NoClassDefFoundError: org/bukkit/event/Listener
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:34)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:27)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:304)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:212)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:259)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:56)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.event.Listener
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:53)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:27)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 18 more
+21:29:51 [경고] Forced host server pvp is not defined
+21:29:51 [정보] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:29:51 [정보] Enabled plugin cmd_find version git:cmd_find:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:29:51 [정보] Enabled plugin cmd_server version git:cmd_server:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:29:51 [정보] Enabled plugin cmd_alert version git:cmd_alert:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:29:51 [정보] Enabled plugin cmd_send version git:cmd_send:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:29:51 [정보] Enabled plugin cmd_list version git:cmd_list:1.12-SNAPSHOT:aef3861:1294 by SpigotMC
+21:29:51 [정보] Listening on /0.0.0.0:25577

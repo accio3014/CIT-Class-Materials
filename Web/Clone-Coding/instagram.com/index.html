@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3분할 웹사이트</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        .sidebar {
+            width: 250px;
+            background: #333;
+            color: white;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .menu a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px 0;
+        }
+
+        .menu a:hover {
+            background: #555;
+        }
+
+        .content {
+            flex: 1;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+
+        .right-sidebar {
+            width: 250px;
+            background: #ddd;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo">로고</div>
+        <div class="menu">
+            <a href="#">홈</a>
+            <a href="#">검색</a>
+            <a href="#">탐색</a>
+            <a href="#">릴스</a>
+            <a href="#">메시지</a>
+            <a href="#">알림</a>
+            <a href="#">만들기</a>
+            <a href="#">프로필</a>
+        </div>
+    </div>
+    <div class="content">메인 콘텐츠 영역</div>
+    <div class="right-sidebar">오른쪽 사이드바</div>
+</body>
+
+</html>

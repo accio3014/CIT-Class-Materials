@@ -1,0 +1,17 @@
+.first {
+    color: red;
+}
+
+.first h4 {
+    color: pink;
+}
+
+.first ul {
+    width: 300px;
+}
+
+.first ul li {
+    color: blue;
+    font-size: large;
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JS Prompt and Alert</title>
+
+    <script>
+        function showGreeting() {
+            let name = prompt('What is your name?');
+            let message = 'Hello ' + name + '!';
+            alert(message);
+        }
+    </script>
+
+</head>
+
+<!-- The onload event fires as soon as an element is done loading.  -->
+<body onload="alert('Welcome to my page!');">
+    
+    <p>This is the content of the page.</p>
+    
+
+    <!-- The onclick event fires when a user clicks on an element in a webpage.  -->
+    <p onclick="alert('hello');">       <!-- Using onclick with script -->
+        Click me!
+    </p>
+
+
+    <p onclick="showGreeting();">       <!-- Using onclick with function -->
+        Run function!
+    </p>
+
+</body>
+
+</html>

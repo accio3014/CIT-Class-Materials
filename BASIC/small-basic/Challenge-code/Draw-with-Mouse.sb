@@ -1,0 +1,28 @@
+GraphicsWindow.PenColor = "Black"
+GraphicsWindow.PenWidth = 2
+
+isDrawing = "False"
+
+GraphicsWindow.MouseDown = MouseDown
+GraphicsWindow.MouseUp = MouseUp
+GraphicsWindow.MouseMove = MouseMove
+
+Sub MouseDown
+  isDrawing = "True"
+  prevX = GraphicsWindow.MouseX
+  prevY = GraphicsWindow.MouseY
+EndSub
+
+Sub MouseUp
+  isDrawing = "False"
+EndSub
+
+Sub MouseMove
+  If (isDrawing = "True") Then
+    x = GraphicsWindow.MouseX
+    y = GraphicsWindow.MouseY
+    GraphicsWindow.DrawLine(prevX, prevY, x, y)
+    prevX = x
+    prevY = y
+  EndIf
+EndSub
