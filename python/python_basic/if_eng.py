@@ -4,10 +4,10 @@
 # The result of the comparison operation is always True or False.
 # ==    : True if the same, False if different.
 # !=    : True if different, False if the same
-# <
-# >
-# <=
-# >=
+# <     : True if the right side is larger (excluding equal values), otherwise return False.
+# >     : True if the left side is larger (excluding equal values), otherwise return False.
+# <=    : True if the right side is larger or equal, otherwise return False.
+# >=    : True if the left side is larger or equal, otherwise return False.
 
 # print(5 != 2)
 # print(5 < 2)
@@ -24,7 +24,7 @@
 #   Run if all condition are False.
 
 # if    : always use 1
-# elif  : use range 0 ~ infinity
+# elif  : use range 0 - infinity
 # else  : use 0 or 1
 # if can be used by nesting within if.
 
