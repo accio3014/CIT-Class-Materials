@@ -2,12 +2,23 @@
 
 # Comparison operators
 # The result of the comparison operation is always True or False.
-# ==    : True if the same, False if different.
-# !=    : True if different, False if the same
-# <     : True if the right side is larger (excluding equal values), otherwise return False.
-# >     : True if the left side is larger (excluding equal values), otherwise return False.
-# <=    : True if the right side is larger or equal, otherwise return False.
-# >=    : True if the left side is larger or equal, otherwise return False.
+# ==    :   [equal to]
+#           True if the same, False if different.
+
+# !=    :   [not equal]
+#           True if different, False if the same
+
+# <     :   [less than]
+#           True if the right side is larger (excluding equal values), otherwise return False.
+
+# >     :   [greater than]
+#           True if the left side is larger (excluding equal values), otherwise return False.
+
+# <=    :   [less than or equal to]
+#           True if the right side is larger or equal, otherwise return False.
+
+# >=    :   [greater than or equal to]
+#           True if the left side is larger or equal, otherwise return False.
 
 # print(5 != 2)
 # print(5 < 2)
@@ -32,10 +43,10 @@
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-# 100 ~ 90  : A
-# 89 ~ 70   : B
-# 69 ~ 60   : C
-# 59 ~      : D
+# 100 - 90  : A
+# 89 - 70   : B
+# 69 - 60   : C
+# 59 -      : D
 
 # score = int(input())
 
