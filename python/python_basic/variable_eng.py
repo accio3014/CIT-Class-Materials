@@ -127,11 +127,11 @@
 
 # print("Welcome.", name, ", Enter your age.")
 # age = input()
-# age = int(age)
+# age = int(age)              # Convert to int
 # year = 2025 - age
 
 # print("You were born in", year, "! Enter your height.")
-# height = int(input())
+# height = int(input())       # Convert to an int as soon as get the input
 
 # two_m = 200 - height
 # print("There are", two_m, "cm left until 2m.")

@@ -92,9 +92,30 @@
 # and   : True if both sides are True, False if even one side is False
 # or    : False if both sides are False, True if at least one side is True
 # The execution order is executed in the order of not, and, or.
+
 # print(not(1 == 1))
 # print((1 != 5) and (10 <= 15))
 # print((6 != 6) or (5 == 3))
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# print("Enter two numbers.")
+# num1 = int(input())
+# num2 = int(input())
+
+# print("What calculation do you want to run?")
+# print("(1:Multiply, 2:Divide, 3:Add, 4:Subtract)")
+# cal = int(input())
+# if(cal == 1) :
+#     print("Selected multiply,", num1, "*", num2, "=", num1*num2)
+# elif(cal == 2) :
+#     print("Selected divide,", num1, "/", num2, "=", num1//num2)
+# elif(cal == 3) :
+#     print("Selected add,", num1, "+", num2, "=", num1+num2)
+# elif(cal == 4) :
+#     print("Selected subtract,", num1, "-", num2, "=", num1-num2)
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
@@ -116,13 +137,6 @@
 #         print("Welcome, young member!")
 #     else :
 #         print("Young non-member, please sign up.")
-
-
-
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
-
-
-
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
