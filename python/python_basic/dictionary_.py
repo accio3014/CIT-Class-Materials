@@ -75,16 +75,16 @@
 # print()
 
 # 값만 출력
-# for i in Americano.values():
+# for i in Americano.values():    # values() 함수를 사용
 #     print(i)
 # print()
 
-# for x in Americano :
+# for x in Americano :            # Key를 이용
 # 	print(Americano[x])
 # print()
 
 # 키와 값 모두 출력
-# for x, y in Americano.items() :
+# for x, y in Americano.items() : # items()함수 사용, for문 변수 2개를 사용해야 함
 # 	print(x, y)
 # print()
 
