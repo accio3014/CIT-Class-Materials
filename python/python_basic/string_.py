@@ -23,21 +23,25 @@
 
 # string0 = 'cit academy'
 # print(string0)
+# print()
 
 # split(문자열)
 # 문자열을 문자열로 나누어 리스트로 리턴
-# 만약에 나눌 문자 없을 경우 해당 문자열 전체를 하나의 리스트로 생성
+# 만약에 나눌 문자가 없을 경우 해당 문자열 전체를 하나의 리스트로 생성
 # print("split('a') :",string0.split('a'))
+# print()
 
 # count(문자열)
 # 문자열에서 특정 문자열의 개수를 리턴 => 수를 알고 싶은 문자의 길이는 상관 없음
 # 만약에 문자가 없을 경우 0을 리턴
 # print("count('a') :",string0.count('a'))
+# print()
 
 # upper()   => 문자를 전부 대문자로
 # lower()   => 문자를 전부 소문자로
 # print('upper() :',string0.upper())
 # print('lower() :',string0.lower())
+# print()
 
 # replace(문자1, 문자2)
 # 문자1을 문자2로 전부 변경
