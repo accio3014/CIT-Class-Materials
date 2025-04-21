@@ -100,7 +100,7 @@
 
 # Nested loops
 # A loop inside another loop
-# Two nested loops is called double nested, three nested loops is called triple nested. 
+# Two nested loops are called double nested, three nested loops are called triple nested. 
 # More than triple nested loops are rarely used.
 
 # for x in range(1, 10, 1) :          # repeats 9 times
