@@ -49,18 +49,18 @@
 # 한줄에 여러개를 출력하고 싶으면 콤마(,)를 사용
 # 만약 print()를 사용할 경우 빈 한줄이 출력
 
-# name = "파이썬"
-# age = 28
-# height = 188
-# print(name)
-# print()         # 빈 한줄 출력
-# print(age)
-# print(height)
-# print("hi")
-# print()
-# print(5)
-# print(5*10)
-# print(name, age, height, "hello")
+name = "파이썬"
+age = 28
+height = 188
+print(name)     # 변수 출력, 변수에 저장된 값을 출력
+print()         # 빈 한줄 출력
+print(age)
+print(height)
+print("hi")     # 값을 바로 출력
+print()
+print(5)
+print(5*10)
+print(name, age, height, "hello")
 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
