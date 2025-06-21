@@ -46,7 +46,7 @@
 # 100 - 90  : A
 # 89 - 70   : B
 # 69 - 60   : C
-# 59 -      : D
+# 59 - 0    : D
 
 # score = int(input())
 
@@ -70,7 +70,7 @@
 # if(age >= 12) :
 #     print("Good, Have fun watching.")
 # else :
-#     print("Sorry, Only over 12 years watch the movie.")
+#     print("Sorry, Only over 11 years watch the movie.")
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
