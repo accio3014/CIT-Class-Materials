@@ -93,9 +93,18 @@
 # or    : False if both sides are False, True if at least one side is True
 # The execution order is executed in the order of not, and, or.
 
-# print(not(1 == 1))
-# print((1 != 5) and (10 <= 15))
-# print((6 != 6) or (5 == 3))
+
+# a = 10
+# b = 2
+
+# if((a == 10) and (b == 2)):
+#     print("a is 10, and b is 2.")
+
+# if((a == 10) or (b == 10)):
+#     print("At least one of a or b is 10.")
+
+# if(not(a == 5)):            # same as (a != 5)
+#     print("a is not 5.")
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
