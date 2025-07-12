@@ -103,6 +103,7 @@
 #     a = 5       # local 변수
 #     b = 20      # local 변수
 
+# print(a)
 # test()
 # print(a)        # test 함수를 실행해도 a 변수의 값은 변화가 없음
 # print(b)        # 변수 b는 test함수에서만 사용하기 때문에 함수 밖에서 참조를 하는 경우 에러 발생
