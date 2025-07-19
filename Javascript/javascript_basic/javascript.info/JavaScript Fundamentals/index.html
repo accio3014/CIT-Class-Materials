@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+
+<html>
+    <body>
+        <!-- <p> 태그의 경우 문단을 표현할 떄 사용 -->
+        <p>Before the script...</p>
+
+        <!-- html 내부에 js를 넣는 경우 <script> 태그 사용-->
+        <script>
+            // alert()의 경우 웹 페이지에서 알림 표시
+            alert("Hello, world!");
+
+
+            // prompt(title, [default]);
+            // prompt()의 경우 입력을 받을 수 있는 폼이 나옴
+            // title의 경우 입력 폼의 제목이며, defalut의 경우 초기 값이다
+            // 변수와 같이 사용을 해야 입력한 값을 저장 할 수 있음
+            let age = prompt("How old are you?", 100);
+            alert(`You are ${age} years old!`);
+
+            
+            
+        </script>
+
+        <p>...After the script.</p>
+
+        <!-- 외부 js파일의 경우 아래와 같이 경로를 이용해서 불러오며,
+         보통 head 또는 body제일 밑에 추가 -->
+        <script src="./script.js"></script>
+    </body>
+</html>
