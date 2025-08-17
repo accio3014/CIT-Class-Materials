@@ -4,7 +4,6 @@
 # streamlit official doc link:
 # https://docs.streamlit.io/
 
-
 import streamlit as st
 
 st.title("Title of the page")
