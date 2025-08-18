@@ -252,7 +252,7 @@
 
 # numbers = [1, 2, 3, 4, 5]
 # print(2 in numbers)
-# print(8 in numbers)
+# print(8 in numbers)         # 보통 if(8 in numbers) 이렇게 사용을 함
 
 
 
