@@ -123,6 +123,20 @@
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
+# list0 = []
+# print(list0)
+# print()
+
+# print("Q1. Use the append() function to add 1, 2, 3, 4, 5, 6, 7, 8, and 9 to list0 in order. (You can also use a loop statement.)")
+# for i in range(1, 10, 1) :
+#     list0.append(i)
+# print(list0)
+# print()
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
 # score = [92, 96, 98, 100]
 
 # avg = sum(score) / len(score)
