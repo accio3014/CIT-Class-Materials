@@ -1,4 +1,4 @@
-# from minecraft import *
+from minecraft import *
 
 # setpos(x, y, z)
 # x, y, z 위치에 숫자 또는 숫자가 저장된 변수를 사용하여 원하는 좌표로 이동
