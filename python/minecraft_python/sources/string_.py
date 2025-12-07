@@ -60,3 +60,21 @@ import time     # 시간과 관련 것을 사용하기 위해 작성
 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# 형 변환(casting)
+# str(변수 or 값)     => 변수 or 값을 str 자료형으로 변환
+# float(변수 or 값)   => 변수 or 값을 float 자료형으로 변환
+# int(변수 or 값)     => 변수 or 값을 int 자료형으로 변환
+# 단순히 연산할때만 사용하면 원본의 값은 변하지 않음
+# 원본의 자료형을 변환 시키기 위해서는 변수에 값을 다시 넣어야 함 [ ex. a = int(a) ]
+
+# one = "1"
+# two = "2"
+# three = int(one) + int(two)     # one, two 변수에 저장된 문자들이 숫자로 변환됨
+# print(three)
+
+# four = 4
+# zero = 0
+# forty = str(four) + str(zero)   # four, zero 변수에 저장된 숫자들이 문자로 변환됨
+# print(forty)
