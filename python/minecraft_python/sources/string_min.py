@@ -43,3 +43,44 @@
 # chat(name)
 # chat(say)
 # print(say)
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# input() 함수를 통해 블록 id를 받아서 마인크래프트에 블록을 설치하는 코드(2종류)
+# 1.
+# x = 200
+# y = 100
+# z = 200
+# block = int(input("input the block id : "))     # 입력을 받자마자 int 자료형으로 변환, 즉 숫자로 변환
+
+# setpos(x, y, z)
+# setblock(x, y-1, z, block)
+
+
+# 2.
+# x = 200
+# y = 100
+# z = 200
+# block = input("input the block id : ")          # 문자로 입력을 받음
+
+# setpos(x, y, z)
+# setblock(x, y-1, z, int(block))                 # 블록을 설치 할 때만 int 자료형으로 변환, 즉 숫자로 변환
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# x = input("x-coordinate : ")
+# y = input("z-coordinate : ")
+# z = input("y-coordinate : ")
+# block = input("block id : ")
+# length = input("length : ")
+# breadth = input("breadth : ")
+
+# say = "x : " + x + ", y : " + y + ", z : " + z + ", block type : " + block + ", length : " + length + ", breadth : " + breadth + ", not i build them!"
+# print(say)
+# chat(say)
+
+# setblocks(int(x), int(y), int(z), int(x) + (length - 1), int(y), int(z) + (breadth - 2), block)
