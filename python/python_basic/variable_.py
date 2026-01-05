@@ -129,7 +129,7 @@
 # print("환영합니다.", name, "님. 나이를 입력해주세요.")
 # age = input()
 # age = int(age)
-# year = 2025 - age
+# year = 2026 - age
 
 # print(year, "년에 태어나셨네요! 키를 입력해주세요.")
 # height = int(input())           # 입력을 받자마자 int로 변환
