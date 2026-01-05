@@ -1,4 +1,4 @@
-# from minecraft import *
+from minecraft import *
 
 # chat()
 # chat("문자")의 경우 문자를 마인크래프트에 출력함, 문자가 저장된 변수도 사용 가능
