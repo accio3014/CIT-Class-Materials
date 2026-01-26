@@ -1,4 +1,4 @@
-from minecraft import *
+# from minecraft import *
 
 # chat()
 # chat("문자")의 경우 문자를 마인크래프트에 출력함, 문자가 저장된 변수도 사용 가능
@@ -62,7 +62,7 @@ from minecraft import *
 
 
 # input() 함수를 통해 블록 id를 받아서 마인크래프트에 블록을 설치하는 코드(2종류)
-# 1.
+# 1. 입력을 받을 때 부터 숫자로 입력 받음
 # x = 200
 # y = 100
 # z = 200
@@ -72,7 +72,7 @@ from minecraft import *
 # setblock(x, y-1, z, block)
 
 
-# 2.
+# 2. 해당 변수가 필요한 부분에서만 숫자로 형변환
 # x = 200
 # y = 100
 # z = 200
@@ -85,15 +85,15 @@ from minecraft import *
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-# x = input("x-coordinate : ")
-# y = input("z-coordinate : ")
-# z = input("y-coordinate : ")
-# block = input("block id : ")
-# length = input("length : ")
-# breadth = input("breadth : ")
+x = input("x-coordinate : ")
+y = input("z-coordinate : ")
+z = input("y-coordinate : ")
+block = input("block id : ")
+length = input("length : ")
+breadth = input("breadth : ")
 
-# say = "x : " + x + ", y : " + y + ", z : " + z + ", block type : " + block + ", length : " + length + ", breadth : " + breadth + ", not i build them!"
-# print(say)
+say = "x : " + x + ", y : " + y + ", z : " + z + ", block type : " + block + ", length : " + length + ", breadth : " + breadth + ", not i build them!"
+print(say)
 # chat(say)
 
 # setblocks(int(x), int(y), int(z), int(x) + (length - 1), int(y), int(z) + (breadth - 2), block)
