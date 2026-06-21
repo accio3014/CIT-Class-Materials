@@ -85,15 +85,15 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-x = input("x-coordinate : ")
-y = input("z-coordinate : ")
-z = input("y-coordinate : ")
-block = input("block id : ")
-length = input("length : ")
-breadth = input("breadth : ")
+# x = input("x-coordinate : ")
+# y = input("z-coordinate : ")
+# z = input("y-coordinate : ")
+# block = input("block id : ")
+# length = input("length : ")
+# breadth = input("breadth : ")
 
-say = "x : " + x + ", y : " + y + ", z : " + z + ", block type : " + block + ", length : " + length + ", breadth : " + breadth + ", not i build them!"
-print(say)
+# say = "x : " + x + ", y : " + y + ", z : " + z + ", block type : " + block + ", length : " + length + ", breadth : " + breadth + ", not i build them!"
+# print(say)
 # chat(say)
 
 # setblocks(int(x), int(y), int(z), int(x) + (length - 1), int(y), int(z) + (breadth - 2), block)
