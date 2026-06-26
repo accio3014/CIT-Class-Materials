@@ -14,7 +14,7 @@
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-# Data types
+# Data types(Type of Value)
 # str   -> String       => made up of quotes " "  ' '
 # float -> Float        => no quotes and has a decimal point
 # int   -> Integer      => no quotes and no decimal point
