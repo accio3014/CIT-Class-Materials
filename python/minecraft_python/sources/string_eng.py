@@ -71,24 +71,18 @@ import time     # Import time tools
 # str(variable or value)     -> Changes it to a string.
 # float(variable or value)   -> Changes it to a float.
 # int(variable or value)     -> Changes it to an integer.
-
 # If you use type casting only in a calculation,
 # the original variable does not change.
-
 # To change the original variable's data type,
 # save the changed value back into the variable.
 # Example: a = int(a)
 
 # one = "1"
 # two = "2"
-
-# The strings in one and two are changed to integers.
-# three = int(one) + int(two)
+# three = int(one) + int(two)     # The strings in one and two are changed to integers.
 # print(three)
 
 # four = 4
 # zero = 0
-
-# The numbers in four and zero are changed to strings.
-# forty = str(four) + str(zero)
+# forty = str(four) + str(zero)   # The numbers in four and zero are changed to strings.
 # print(forty)
