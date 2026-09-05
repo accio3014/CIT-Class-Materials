@@ -58,7 +58,7 @@
 
 # test = ['test', 1, 8, 'hi', '3.15']
 
-# for i in test:      # 기존에 배웠던 for문의 range 자리에 리스트틑 넣어서
+# for i in test:      # 기존에 배웠던 for문의 range 자리에 리스트를 넣어서
 #                     # 리스트 내용을 전부 출력할 수 있음, 리스트의 길이만큼 반복
 #     print(i, end=' ')
 

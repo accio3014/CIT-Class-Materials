@@ -58,7 +58,15 @@
 #         print('* ', end='')
 #     print() 
 
+# row = int(input('Input row count.\n'))
+# print()
 
+# for i in range(1, row+1, 1):
+#     for j in range(1, i, 1):            # 공백을 출력 부분
+#         print('  ', end='')
+#     for k in range(0, (row+1)-i, 1):    # 공백을 출력한 후에 별을 출력한 부분
+#         print('* ', end='')
+#     print() 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
@@ -79,11 +87,11 @@
 # print()
 
 # for i in range(1, row+1, 1):
-#     for j in range(0, row-i, 1):
+#     for j in range(0, row-i, 1):    # 공백 출력 부분
 #         print('  ', end='')
-#     for k in range(i):
+#     for k in range(i):              # 공백을 출력한 후에 별을 출력한 부분
 #         print('* ', end='')
-#     print()
+#     print()                         # 공백과 별이 전부 출력된 후에 줄 바꿈
 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
